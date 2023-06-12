@@ -1,4 +1,9 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://nickmeier.xyz/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "NickVTech"
 theme = 'hugo-simplecss'
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 1
