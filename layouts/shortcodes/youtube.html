@@ -1,0 +1,14 @@
+<article>
+<div style="display: flex; justify-content: center;">
+    <iframe 
+        width="{{ .Get "width" | default "560" }}" 
+        height="{{ .Get "height" | default "315" }}" 
+        src="https://www.youtube.com/embed/{{ .Get "id" }}" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+    </iframe>
+</div>
+<figcaption>"That's noob thinking, looking for validation from other people instead of skill" - George Hotz</figcaption>
+</article>
