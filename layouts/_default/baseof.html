@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }}</title>
+    <!-- Un-Minified version -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+</head>
+<body>
+    <header>
+        <!-- partial to include header -->
+        {{ partial "header.html" . }}
+    </header>
+
+    <main>
+        <!-- block to be overridden in list and single templates -->
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+        <!-- partial to include footer -->
+        {{ partial "footer.html" . }}
+    </footer>
+</body>
+</html>

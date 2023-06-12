@@ -1,7 +1,6 @@
 baseURL = 'http://nickmeier.xyz/'
 languageCode = 'en-us'
 title = "NickVTech"
-theme = 'hugo-simplecss'
 
 [[menu.main]]
 name = "Home"
