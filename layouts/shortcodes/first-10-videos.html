@@ -1,0 +1,21 @@
+<h5>Last updated: {{ .Page.Lastmod.Format "January 2, 2006" }}</h5>
+
+{{- $playlistID := .Get 0 -}}
+{{- $apikey := getenv "YOUTUBE_API_KEY" -}}
+{{- $playlistURL := printf "https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&playlistId=%s&key=%s" $playlistID $apikey -}}
+{{- $playlistData := getJSON $playlistURL -}}
+{{- $videoURLs := slice -}} <!-- Initialize $videoURLs here -->
+
+{{- range $index, $video := $playlistData.items -}}
+        {{- $videoID := index $video "snippet" "resourceId" "videoId" -}}
+        {{- $videoURL := printf "https://www.youtube.com/embed/%s" $videoID -}}
+        {{- $videoURLs = $videoURLs | append $videoURL -}} <!-- Append to $videoURLs here -->
+{{- end -}}
+
+{{- range $index, $videoURL := $videoURLs -}}
+<center>
+  <div style="margin:30px 0px;"></div>
+    <iframe width="560" height="315" src="{{ $videoURL }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+{{- end -}}
+
