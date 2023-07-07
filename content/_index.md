@@ -13,7 +13,3 @@ I understand I have a huge potential, and I am super excited to work towards tha
 {{< youtube id="-v8pD0d5Bmk" width="560" height="315" >}}
 
 
-### Frens
-Here are some of my friends :)
-
-Zach - [https://connect.weiss.land/](https://connect.weiss.land/)
