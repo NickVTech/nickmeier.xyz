@@ -1,10 +1,10 @@
 ---
-title: "My Youtube Playlist"
+title: "Liked Videos - YouTube Playlist"
 date: 2023-06-15T10:16:57-04:00
 draft: false
 ---
 
-Youtube... I love you. Sincerely.
+YouTube... I love you. Sincerely.
 I watch YouTube everynight before bed. I feel like the creators on the platform put in the most effort. They genuinly care
 about their content. Most platforms nowadays are stockpiled with people just trying to get famous.
 
