@@ -15,3 +15,11 @@ I created this section to allow you to keep updated with my current interests. T
 linked to the videos, and I watch youtube everynight! Anything I like, should appear here. If you would to checkout
 the full playlist, feel free to [here](https://www.youtube.com/playlist?list=PLRwgaooAgnpVrBKsY1I0mOxET5hihbxPt).
 {{< first-10-videos PLRwgaooAgnpVrBKsY1I0mOxET5hihbxPt >}}
+
+How did I build this section?
+- HUGO (The website)
+- Golang (Functionality)
+- Postman (Working with API)
+
+How does it work?
+- Since the site is static, it updates everytime I build the website again.

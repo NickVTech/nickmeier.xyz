@@ -22,6 +22,11 @@ name = "Youtube"
 url = "/youtube"
 weight = 4
 
+[[menu.main]]
+name = "Misc"
+url = "/misc"
+weight = 5
+
 
 
 [security]

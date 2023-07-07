@@ -11,3 +11,9 @@ Welcome to my website. Here, you can expect to find little updates on whatever I
 I understand I have a huge potential, and I am super excited to work towards that!
 
 {{< youtube id="-v8pD0d5Bmk" width="560" height="315" >}}
+
+
+### Frens
+Here are some of my friends :)
+
+Zach - [https://connect.weiss.land/](https://connect.weiss.land/)
