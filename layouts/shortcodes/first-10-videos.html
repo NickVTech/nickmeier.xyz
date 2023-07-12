@@ -1,3 +1,7 @@
+{{ $date := .Page.Date.Format "02.01.2006"}}
+{{ $lastmod := .Page.Lastmod.Format "02.01.2006"}}
+
+<h6>Published on {{ .Page.Date.Format "January 2, 2006" }}</h6>
 <h5>Last updated: {{ .Page.Lastmod.Format "January 2, 2006" }}</h5>
 
 {{- $playlistID := .Get 0 -}}
