@@ -1,7 +1,6 @@
 ---
 title: "Liked Videos - YouTube Playlist"
 date: 2023-06-15
-lastmod: 2023-07-24
 draft: false
 ---
 
