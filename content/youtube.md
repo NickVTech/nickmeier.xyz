@@ -14,6 +14,15 @@ garbage content appearing randomly. They have never steered me in a certain dire
 I created this section to allow you to keep updated with my current interests. This website is
 linked to the videos, and I watch youtube everynight! Anything I like, should appear here. If you would to checkout
 the full playlist, feel free to [here](https://www.youtube.com/playlist?list=PLRwgaooAgnpVrBKsY1I0mOxET5hihbxPt).
+
+## Professionals
+#### Golang
+- [Anthony GG](https://www.youtube.com/@anthonygg_)
+#### Backend
+- [Hussein Nasser](https://www.youtube.com/@hnasr)
+#### Fullstack
+- [Ben Davis](https://www.youtube.com/@bmdavis419)
+
 {{< first-10-videos PLRwgaooAgnpVrBKsY1I0mOxET5hihbxPt >}}
 
 How did I build this section?
