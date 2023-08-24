@@ -1,3 +1,7 @@
+## Public build
+public/
+.env
+
 # Logs
 logs
 *.log
