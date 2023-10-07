@@ -1,6 +1,11 @@
 {{ define "main" }}
     {{ range sort .Pages "Date" "desc" }}
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        
+        {{ if .Params.thumbnail }}
+            <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}" />
+        {{ end }}
+        
         <p><strong>Date:</strong> {{ dateFormat "January 2, 2006" .Date }}</p>
         <p>{{ .Summary }}</p>
     {{ end }}
