@@ -4,7 +4,6 @@ date: 2023-10-07T7:27:00-04:00
 draft: false
 ---
 
-
 Starting with a blank computer consisting solely of hardware, let’s break down what is inherently provided, what’s managed by external utilities, and what needs to be implemented manually:
 
 ### Provided by Hardware:
