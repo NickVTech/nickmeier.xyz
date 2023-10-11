@@ -6,6 +6,28 @@
     <title>{{ .Title }}</title>
     <!-- Un-Minified version -->
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+    <!-- Firebase App (the core Firebase SDK) -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+
+    <!-- Firebase Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "{{ getenv "FIREBASE_API_KEY" }}",
+        authDomain: "{{ getenv "FIREBASE_AUTH_DOMAIN" }}",
+        projectId: "{{ getenv "FIREBASE_PROJECT_ID" }}",
+        storageBucket: "{{ getenv "FIREBASE_STORAGE_BUCKET" }}",
+        messagingSenderId: "{{ getenv "FIREBASE_MESSAGING_SENDER_ID" }}",
+        appId: "{{ getenv "FIREBASE_APP_ID" }}",
+        measurementId: "{{ getenv "FIREBASE_MEASUREMENT_ID" }}"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </head>
 <body>
     <header>

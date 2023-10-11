@@ -32,10 +32,10 @@ weight = 4
     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
 
   [security.funcs]
-    getenv = ['^HUGO_', '^YOUTUBE_API_KEY$']
+    getenv = ["^HUGO_", "^YOUTUBE_API_KEY$", "^FIREBASE_"]
+
 
   [security.http]
     methods = ['(?i)GET|POST']
     urls = ['.*']
-
 
