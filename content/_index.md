@@ -19,9 +19,3 @@ It's not just about the present. I envision revisiting these pages over time, re
 **Engage with Me Further**: For those curious about my current projects and contributions, I encourage you to explore my GitHub! I'm actively involved there, and it provides a detailed glimpse into my technical engagements.
 
 ---
-
-##### Here is a funny video from George Hotz
-
-{{< youtube id="-v8pD0d5Bmk" width="560" height="315" >}}
-
-
