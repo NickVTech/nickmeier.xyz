@@ -6,8 +6,21 @@ draft: false
 
 {{< links >}}
 
-Welcome to my website. Here, you can expect to find little updates on whatever I am doing. I encourage you all to checkout my github, as I am pretty active on it. I honestly have a huge passion for computers. Through this website, I hope to get a log on my skills and development. I think it would be pretty cool to look back in 10 years and see how much I have grew.
+---
 
+# Welcome
+
+This website serves as a chronicle of my ongoing endeavors, explorations, and developments, particularly within the realm of computing. I warmly invite you to peruse the regular updates and insights I share here.
+
+I wear my passion for computers on my sleeve. The evolution, intricacies, and sheer potential of computing engage me, and I aim to document my journey and growth in this space.
+
+It's not just about the present. I envision revisiting these pages over time, reflecting on the strides I've taken and the milestones achieved. The idea of witnessing my transformation over the years excites me!
+
+**Engage with Me Further**: For those curious about my current projects and contributions, I encourage you to explore my GitHub! I'm actively involved there, and it provides a detailed glimpse into my technical engagements.
+
+---
+
+##### Here is a funny video from George Hotz
 
 {{< youtube id="-v8pD0d5Bmk" width="560" height="315" >}}
 
