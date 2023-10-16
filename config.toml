@@ -22,10 +22,6 @@ name = "Youtube"
 url = "/youtube"
 weight = 4
 
-[[menu.main]]
-name = "Misc"
-url = "/misc"
-weight = 5
 
 
 
@@ -36,10 +32,10 @@ weight = 5
     osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
 
   [security.funcs]
-    getenv = ['^HUGO_', '^YOUTUBE_API_KEY$']
+    getenv = ["^HUGO_", "^YOUTUBE_API_KEY$"]
+
 
   [security.http]
     methods = ['(?i)GET|POST']
     urls = ['.*']
-
 

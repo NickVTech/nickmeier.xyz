@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "website-7bdc1"
-  }
+    "default": "website-7bdc1",
+    "nickmeier": "website-7bdc1"
+  },
+  "targets": {},
+  "etags": {}
 }

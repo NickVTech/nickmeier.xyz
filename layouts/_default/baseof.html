@@ -6,6 +6,26 @@
     <title>{{ .Title }}</title>
     <!-- Un-Minified version -->
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+        
+    <!-- Firebase Compat Version for v9 and later -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics-compat.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBhEPE-iH5ZzZKr75uXfuKan6wAmDKJniE",
+            authDomain: "website-7bdc1.firebaseapp.com",
+            projectId: "website-7bdc1",
+            storageBucket: "website-7bdc1.appspot.com",
+            messagingSenderId: "999946271996",
+            appId: "1:999946271996:web:71311a23d8a628bfed2b79",
+            measurementId: "G-W1X3993PGP"
+        };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </head>
 <body>
     <header>
